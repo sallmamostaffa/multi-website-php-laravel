@@ -33,6 +33,6 @@ Composer
 ## Steps: 
 1- Clone the repository:
 
-$ git clone [https://github.com/yourusername/multi-project](https://github.com/sallmamostaffa/multi-website-php-laravel).git
-cd multi-project
+$ git clone https://github.com/yourusername/multi-project.git
+$ cd multi-project
 
