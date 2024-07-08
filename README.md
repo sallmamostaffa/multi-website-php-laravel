@@ -31,9 +31,52 @@ Composer
 
 
 ## Steps: 
+
 1- Clone the repository:
 
 ```
 git clone https://github.com/yourusername/multi-project.git
 cd multi-project
 ```
+
+2- Install dependencies
+
+```
+composer install
+npm install
+
+```
+3- Setup environment variables
+
+```
+cp .env.example .env
+
+```
+4 -Generate application key
+
+```
+php artisan key:generate
+
+```
+5- Run database migrations and seeders
+
+
+```
+php artisan migrate --seed
+
+```
+
+6- Build frontend assets
+
+```
+npm run dev
+
+```
+7- Start the development server
+
+```
+php artisan serve
+
+```
+
+ application will be available at http://localhost:8000.
