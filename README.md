@@ -33,6 +33,7 @@ Composer
 ## Steps: 
 1- Clone the repository:
 
-$ git clone https://github.com/yourusername/multi-project.git
+'''
+git clone https://github.com/yourusername/multi-project.git
 $ cd multi-project
-
+'''
